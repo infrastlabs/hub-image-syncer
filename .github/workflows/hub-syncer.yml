@@ -1,7 +1,7 @@
-name: docker-image
+name: hub-syncer
 on:
   push:
-    branches: [ "dev" ]
+    branches: [ "master" ]
   pull_request:
     branches: [ "dev" ]
 jobs:
