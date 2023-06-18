@@ -67,6 +67,7 @@ alpine:3.13.12|multi #5 months ago 2.7M
 # registry.cn-shenzhen.aliyuncs.com/infrastlabs/edgecore:lite2.5-barge
 
 #new-pt-device-iot
-minio/minio:RELEASE.2022-05-08T23-50-31Z.hotfix.8ee531027|multi
+#minio/minio:RELEASE.2022-05-08T23-50-31Z.hotfix.8ee531027|multi
+minio/minio:RELEASE.2022-05-08T23-50-31Z|multi
 snowdreamtech/frps:0.49.0|multi
 snowdreamtech/frpc:0.49.0|multi
