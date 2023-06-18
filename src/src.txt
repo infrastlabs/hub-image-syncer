@@ -1,0 +1,72 @@
+rancher/pause:3.2|multi #两年前 3.1 #4年前
+alpine:3.13.12|multi #5 months ago 2.7M
+# alpine:3.14.8|multi  #3 months ago 2.7M
+# ubuntu:20.04 #15 hours ago 26.23 MB ###error: unsupported manifest type: application/vnd.oci.image.index.v1+json
+# almalinux:8.7 #两月前 68.14 MB
+# docker:20.10.18 #20.10.18|20.10.18-cli 4月前 46.12 MB
+
+
+# ##k3s端#########
+# coredns/coredns:1.8.0|multi # a year ago 
+# #rancher
+# # rancher/local-path-provisioner:v0.0.23 #3月前 13.25 MB #v009 :4 years ago
+# #metrics
+# dyrnq/metrics-server:v0.6.2|multi
+# # dyrnq/metrics-server:v0.4.5 #12 hours ago cron??
+# #kdash|multi (local不存arm64版)
+# kubernetesui/dashboard:v2.5.1 # a year ago
+# kubernetesui/metrics-scraper:v1.0.7 #两年前 #v108 arch乱/无arm
+# #kedge
+# kubeedge/edgemesh-agent:v1.13.2|multi #13 days ago 22M
+
+# #extend
+# eclipse-mosquitto:1.6.15
+# nginx:1.22.0-alpine|multi
+# # 
+# # # ERRO[2023-02-10 17:51:44] Get manifest info from registry.cn-shenzhen.aliyuncs.com/infrastlabs/env-centos:alma8.7-sdk-v2 error: unsupported manifest type: application/vnd.oci.image.index.v1+json 
+# # # ERRO[2023-02-10 17:51:44] Get manifest info from registry.cn-shenzhen.aliyuncs.com/infrastlabs/env-centos:alma8.7-v2 error: unsupported manifest type: application/vnd.oci.image.index.v1+json 
+# # registry.cn-shenzhen.aliyuncs.com/infrastlabs/env-centos:alma8.7-v2
+# # registry.cn-shenzhen.aliyuncs.com/infrastlabs/env-centos:alma8.7-sdk-v2
+
+
+# # +ksp: TODO: kubesphereio>> 只用x64
+# mirrorgooglecontainers/defaultbackend-amd64:1.4
+# # kubesphere/kubectl:v1.22.0 ##kubesphereio/kubectl:latest >> v1.22.1
+# # alpine:3.14 #terminal
+# registry.cn-shenzhen.aliyuncs.com/infrastlabs/local-path-provisioner:v0.0.23
+# registry.cn-beijing.aliyuncs.com/kubesphereio/kubectl:latest
+# # v3.3.2> v3.3.1 (v3.3.2: dashboards自定义MonitDash页加载错误: v331同问题>api重启即可; 先crds, 再api)
+# registry.cn-beijing.aliyuncs.com/kubesphereio/ks-apiserver:v3.3.2
+# registry.cn-beijing.aliyuncs.com/kubesphereio/ks-console:v3.3.2
+# registry.cn-beijing.aliyuncs.com/kubesphereio/ks-controller-manager:v3.3.2
+# # 
+# # infrasync/kubesphereio-examples-bookinfo-details-v1:1.16.2 (62.5 MB)
+# # infrasync/kubesphereio-examples-bookinfo-productpage-v1:1.16.2 (66.4 MB)
+# # infrasync/kubesphereio-examples-bookinfo-ratings-v1:1.16.3 (57.1 MB)
+# # infrasync/kubesphereio-examples-bookinfo-reviews-v1:1.16.2 (415.6 MB)
+# # registry.cn-beijing.aliyuncs.com/kubesphereio/examples-bookinfo-productpage-v1:1.16.2
+# # registry.cn-beijing.aliyuncs.com/kubesphereio/examples-bookinfo-reviews-v1:1.16.2
+# # registry.cn-beijing.aliyuncs.com/kubesphereio/examples-bookinfo-details-v1:1.16.2
+# # registry.cn-beijing.aliyuncs.com/kubesphereio/examples-bookinfo-ratings-v1:1.16.3
+# registry.cn-beijing.aliyuncs.com/kubesphereio/nginx-ingress-controller:v0.35.0
+# # 
+# # registry.cn-shenzhen.aliyuncs.com/infrastlabs/alpine-ext:weak
+# registry.cn-beijing.aliyuncs.com/kubesphereio/kube-state-metrics:v2.5.0
+# registry.cn-beijing.aliyuncs.com/kubesphereio/kube-rbac-proxy:v0.11.0
+# registry.cn-beijing.aliyuncs.com/kubesphereio/node-exporter:v1.3.1
+# registry.cn-beijing.aliyuncs.com/kubesphereio/prometheus:v2.34.0
+# registry.cn-beijing.aliyuncs.com/kubesphereio/prometheus-operator:v0.55.1
+# # non->Image: xxx
+# registry.cn-beijing.aliyuncs.com/kubesphereio/prometheus-config-reloader:v0.55.1
+
+
+# # acorn
+# ghcr.io/acorn-io/acorn:v0.7.0-alpha1|multi
+# # barge
+# registry.cn-shenzhen.aliyuncs.com/infrastlabs/kube-cmd:v2.1-barge
+# registry.cn-shenzhen.aliyuncs.com/infrastlabs/edgecore:lite2.5-barge
+
+#new-pt-device-iot
+minio/minio:RELEASE.2022-05-08T23-50-31Z.hotfix.8ee531027|multi
+snowdreamtech/frps:0.49.0|multi
+snowdreamtech/frpc:0.49.0|multi

@@ -1,0 +1,17 @@
+registry.hub.docker.com:
+  username: #hub
+  password: #hub
+deploy.xxx.com.ssl:8143: #DST2_DOMAIN
+  username: xxx #dpRegistry
+  password: xxxxxxxxxx #dpRegistry
+server.k8s.local:18443: #DST2_DOMAIN
+  username: xxx #edgeRegistry
+  password: xxxxxxxxxx #edgeRegistry
+# quay.io:
+#   username: xxx
+#   password: xxxxxxxxx
+#   insecure: true
+# quay.io/coreos:
+#   username: abc
+#   password: xxxxxxxxx
+#   insecure: true
